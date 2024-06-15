@@ -40,7 +40,7 @@ headerLogoConatiner.addEventListener('click', () => {
 // JavaScript code to handle download button click
 document.getElementById('downloadButton').addEventListener('click', function() {
   // Use fetch to get the content of cv.html
-  fetch('CV.html')
+  fetch('./CV.html')
       .then(response => response.text())
       .then(html => {
         // Customize styles for PDF rendering
