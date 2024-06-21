@@ -37,4 +37,3 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
   
-// JavaScript code to handle download button click
